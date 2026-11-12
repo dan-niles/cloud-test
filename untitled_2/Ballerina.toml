@@ -1,0 +1,9 @@
+[package]
+org = "dan"
+name = "untitled_2"
+version = "0.1.0"
+distribution = "2201.14.1"
+title = "Untitled_2"
+
+[build-options]
+sticky = true
