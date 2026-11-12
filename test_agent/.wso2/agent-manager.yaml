@@ -1,0 +1,4 @@
+mcpServers:
+  - proxy: deepwiki
+    env:
+      url: DEEPWIKI_MCP_URL
