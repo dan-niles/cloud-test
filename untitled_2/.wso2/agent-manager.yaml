@@ -1,0 +1,9 @@
+llmProviders:
+  - provider: amp-openai-provider
+    env:
+      url: AMP_OPENAI_PROVIDER_URL
+      apikey: AMP_OPENAI_PROVIDER_API_KEY
+mcpServers:
+  - proxy: deepwiki
+    env:
+      url: DEEPWIKI_MCP_URL
