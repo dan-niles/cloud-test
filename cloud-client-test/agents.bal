@@ -2,7 +2,7 @@ import ballerina/ai;
 import ballerina/mcp;
 
 final ai:Agent aiAgent = check new (
-    systemPrompt = {role: string `test`, instructions: string `test`}, model = openaiModelprovider, tools = [deepwikiMcp]
+    systemPrompt = {role: string `test 123`, instructions: string `test 123`}, model = openaiModelprovider, tools = [deepwikiMcp, tool]
 );
 
 isolated class DeepwikiMcpToolkit {
@@ -28,3 +28,6 @@ isolated class DeepwikiMcpToolkit {
     }
 }
 
+@ai:AgentTool
+isolated function tool() {
+}
